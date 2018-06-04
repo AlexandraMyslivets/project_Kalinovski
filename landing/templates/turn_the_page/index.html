@@ -1,0 +1,367 @@
+{% load staticfiles%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+     <!-- Custom styles -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+    <!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="{% static 'img/fav.png' %}">
+	<!-- Author Meta -->
+	<meta name="author" content="Colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>CellOn</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
+		<!--
+		CSS
+		============================================= -->
+		<link rel="stylesheet" href="{% static 'css/linearicons.css' %}">
+		<link rel="stylesheet" href="{% static 'css/owl.carousel.css' %}">
+		<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+		<link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+		<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+		<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+<body>
+<div class="oz-body-wrap">
+		<!-- Start Header Area -->
+		<header class="default-header">
+			<div class="container-fluid">
+				<div class="header-wrap">
+					<div class="header-top d-flex justify-content-between align-items-start">
+						<div class="logo">
+							<a href="index.html"><img src="{% static 'img/logo.jpg' %}" alt=""></a>
+						</div>
+						<div class="main-menubar d-flex align-items-center">
+							<nav class="hide">
+								<a href="index.html">Галоўная старонка</a>
+								<a href="elements.html">Памяшканні</a>
+								<a href="generic.html">Пра нас, стваральнікаў</a>
+							</nav>
+							<div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End Header Area -->
+		<!-- Start Banner Area -->
+		<section class="banner-area relative">
+			<div class="container">
+				<div class="row fullscreen align-items-center justify-content-center">
+					<div class="banner-left col-lg-6">
+						<img class="d-flex mx-auto img-fluid" src="{% static 'img/portrait.jpg' %}" alt="">
+					</div>
+					<div class="col-lg-6">
+						<div class="story-content">
+                            <h6 class="text-uppercase">Натхненне на новым узроўні</h6>
+							<h1><span class="sp-1">Крэатыўная &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160 арт-прастора</span><br>
+							<span class="sp-2">для працы і адпачынку</span></h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner Area -->
+
+		<!-- Start Video Area -->
+		<section class="video-area pt-40 pb-40">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="video-content">
+					<a href="https://www.youtube.com/watch?v=L-dZ8Y8bTvg" class="play-btn"><img src="{% static 'img/play-btn.png' %}" alt=""></a>
+					<div class="video-desc">
+						<h3 class="h2 text-white text-uppercase">Клікні на відэа</h3>
+						<h4 class="text-white">каб дазнацца больш</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Video Area -->
+		<!-- Start about Area -->
+		<section class="about-area pt-100 pb-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="story-content">
+							<h2>Крыху інфармацыі, <br>
+							або<span> шчыра запрашаем </span></h2>
+							<p class="mt-30">У траўні гэтага года ў вялікім асабняку XVIII стагоддзя па вуліцы Каліноўскага пачаў працаваць новы крэатыўны кластар #Кастусь_Каліноўскі, які стаў, мабыць, самым маштабным з падобных праектаў у Мінску.
+                                Тут можна сустрэцца з творчымі людзьмі, наведаць выставу сучаснага мастацтва, паглядзець і абмеркаваць арт-хаус кіно, набыць арыгінальныя дызайнерскія рэчы і проста адпачыць душой. Акрамя гэтага ў арт-прасторы створаны ўсе ўмовы для плённай працы, а таксама для правядзення лекцый і семінараў.
+							</p>
+						</div>
+
+					</div>
+					<div class="col-lg-6">
+						<img class="img-fluid d-flex mx-auto" src="{% static 'img/about.jpg' %}" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End about Area -->
+		<!-- Start Feature Area -->
+		<section class="feature-area pt-100 pb-100  relative">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-laptop-phone"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Сучасны дызайн</h2>
+								<p>
+									Пляцоўка высокага ўзроўню, якая прадыходзіць пад самых патрабавальных кліентаў
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-graduation-hat"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Функцыянальныя зоны</h2>
+								<p>
+									Уваходная зона і гардэроб, творчы «CO-WORKING», Lounge-буфет для гульняў, праглядаў фільмаў і вячорак з сябрамі
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-magic-wand"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Высокая якасць</h2>
+								<p>
+									Прасторныя вентыляваныя памяшкання, прадастаўленне кава-брэйкаў, якаснае абсталяванне гукавой і відэа-тэхнікай
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-laptop"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Зручнае распалажэнне</h2>
+								<p>
+									400 метраў ад метро Усход, 200 метраў ад прыпынку Усход-2
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-heart"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Падтрымка і PR </h2>
+								<p>
+									Забеспячэнне ўсёй інфраструктуры для правядзення мерапрыемстваў, медыя падтрымка, прасоўванне ў сацыяльных сетках
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 d-flex align-items-stretch">
+						<div class="single-feature">
+							<div class="icon">
+								<span class="lnr lnr-screen"></span>
+							</div>
+							<div class="desc">
+								<h2 class="text-uppercase">Нізкія цэны</h2>
+								<p>
+									У параўнанні з аналагічнымі прасторамі ў розных гарадах Еўропы
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Start Feature Area -->
+		<!-- Start faq Area -->
+		<section class="faq-area pt-100 pb-100">
+			<div class="container">
+				<div class="row">
+					<div class="counter-left col-lg-3 col-md-3">
+						<div class="single-facts">
+							<h2 class="counter">2300</h2>
+							<p>кв.м. плошча прасторы</p>
+						</div>
+						<div class="single-facts">
+							<h2 class="counter">1072</h2>
+							<p>захопленых наведвальніка</p>
+						</div>
+						<div class="single-facts">
+							<h2 class="counter">346</h2>
+							<p>кубкі кавы было выпіта</p>
+						</div>
+						<div class="single-facts">
+							<h2 class="counter">42</h2>
+							<p>р. кошт білета за месяц</p>
+						</div>
+					</div>
+					<div class="faq-content col-lg-9 col-md-9">
+						<div class="single-faq">
+							<h2 class="text-uppercase">
+                                Няма ўзроставых абмежаванняў <p>(Ваня, 63 гады)</p>
+							</h2>
+							<p>
+								“Атмасфера непасрэднасці, свабоды і самавыяўлення - вось чаму гэта месца так любіць моладзь. Вельмі прасторныя і натхнёныя залы, цікавая пляцоўка для адпачынку, нядрэнны стрытфуд ... Нават у свае 63 адчуў сябе ў гэтым месцы маладым."
+							</p>
+						</div>
+						<div class="single-faq">
+							<h2 class="text-uppercase">
+                                Разнастайнасць забаў <p>(Таня, падарожніца)</p>
+							</h2>
+							<p>
+								“Добрыя віды. Можна смачна паесці. Ці пасядзець на лаўцы на даху. Пабадзяцца па мілых крамах. Проста пасядзець з сябрамі і пагуляць у настольныя гульні. І нават пакатацца на арэлях ў памяшканні. Тут сабе знойдзе месца кожны."
+							</p>
+						</div>
+						<div class="single-faq">
+							<h2 class="text-uppercase">
+                                Інтэлігентная публіка <p>(Рома, настаўнік старэйшых класаў)</p>
+							</h2>
+							<p>
+								“Вельмі незвычайнае месца. Нязвыклы фармат, шмат моладзі (уласна менавіта на іх і арыентаваны праект). Хлопцы і дзяўчынкі гадоў да 25 паводзяць сябе цалкам прыстойна, дарэчы."
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Start faq Area -->
+		<!-- Start Conatct- Area -->
+		<section class="contact-area pt-100 pb-100 relative">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<div class="single-contact col-lg-6 col-md-8">
+						<h2 class="text-white">З'явілісь цікавыя ідэі і думкі?</h2>
+						<p class="text-white">
+							пакінь свае кантакты і мы абавязкова з табой звяжамся
+						</p>
+					</div>
+				</div>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div align="center" class="text-bright">
+                                <h1>&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160</h1>
+                                {{ form.as_p }}
+                                <h1>&#160 &#160 &#160 &#160 &#160 &#160 &#160 &#160</h1>
+                            </div>
+                        </div>
+                    </div>
+                            <div class="col-lg-10 d-flex justify-content-end">
+                                <button class="primary-btn white-bg d-inline-flex align-items-center mt-20"><span class="mr-10">Адаслаць</span><span class="lnr lnr-arrow-right"></span></button> <br>
+                            </div>
+                </form>
+{#				<form id="myForm" action="" method="post" class="contact-form">{% csrf_token %}#}
+{#					<div class="row justify-content-center">#}
+
+{#						<div class="col-lg-5">#}
+{#							<input name="fname" placeholder="Мяне завуць Саша. А цябе?" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Мяне завуць Саша. А цябе?'" class="common-input mt-20" required="" type="text">#}
+{#						</div>#}
+{#						<div class="col-lg-5">#}
+{#							<input name="email" placeholder="Падзяліся сваім e-mail, каб мы маглі звязацца з табой" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Падзяліся сваім e-mail, каб мы маглі звязацца з табой'" class="common-input mt-20" required="" type="email">#}
+{#						</div>#}
+{#						<div class="col-lg-10">#}
+{#							<textarea class="common-textarea mt-20" name="message" placeholder="Пішы ўсё, што думаеш пра гэты праект і жыццё ў цэлым" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Пішы ўсё, што думаеш пра гэты праект і жыццё ў цэлым'" required=""></textarea>#}
+{#					</div>#}
+{#					<div class="col-lg-10 d-flex justify-content-end">#}
+{#						<button class="primary-btn white-bg d-inline-flex align-items-center mt-20"><span class="mr-10">Адаслаць</span><span class="lnr lnr-arrow-right"></span></button> <br>#}
+{#					</div>#}
+{#					<div class="alert-msg"></div>#}
+{#					</div>#}
+{#				</form>#}
+			</div>
+		</section>
+		<!-- End Conatct- Area -->
+		<!-- Strat Footer Area -->
+		<footer class="section-gap">
+			<div class="container">
+				<div class="row pt-60">
+					<div class="col-lg-3 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-social d-flex align-items-center">
+								<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+								<a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter"></i></a>
+								<a href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
+								<a href="https://www.behance.net/"><i class="fa fa-behance"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<p class="footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Аляксандра Мыслівец</a></p>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+	</div>
+
+		<script src="{% static 'js/vendor/jquery-2.2.4.min.js' %}"></script>
+		<script src="{% static 'js/popper.min.js' %}" ></script>
+		<script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+		<script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+		<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+		<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+		<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+		<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+		<script src="{% static 'js/waypoints.min.js' %}"></script>
+		<script src="{% static 'js/main.js' %}"></script>
+{##}
+{#    <h1 class="title">Hello!</h1>#}
+{##}
+{##}
+{#<!-- START Video-->#}
+{#    <div class="video-responsive">#}
+{#    <iframe src="https://player.vimeo.com/video/266680678" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>#}
+{#<p><a href="https://vimeo.com/266680678">Nici &amp; Kari - Monster (shooting)</a> from <a href="https://vimeo.com/user46840476">FOVEA DESIGN</a> on <a href="https://vimeo.com">Vimeo</a>.</p>#}
+{#    </div>#}
+{#<!-- END Video -->#}
+{##}
+{#    <h1 class="title">Hello!</h1>#}
+{#    <h1 class="title">Hello!</h1>#}
+{#    <h1 class="title">Hello!</h1>#}
+{#    <h1 class="title">Hello!</h1>#}
+
+
+
+{##}
+{#    <!-- jQuery -->#}
+{#    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>#}
+{##}
+{#    <!-- Latest compiled and minified JavaScript -->#}
+{#    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>#}
+{#<script src="{% static 'index.js' %}"></script>#}
+</body>
+</html>
